@@ -12,17 +12,17 @@ var five = "Howdy!";
 var six;
 
 // Insert comments to explain what each console log below will log to the console
-// will log the number 5=64 //
+// will log number //
 console.log(typeof one); 
-// will log the string 656302 //
+// will log string // 
 console.log(typeof two); 
-// will log a false value //
+// will log boolean //
 console.log(typeof three); 
-// will log the number 64.55 //
+// will log number //
 console.log(typeof four); 
-// will log the string "Howdy!" //
+// will log boolean //
 console.log(typeof five);
-// will not log anything...it is undefined //
+// will log undefined //
 console.log(typeof six);
 
 four = "Hello!";
@@ -30,6 +30,9 @@ five = false;
 six = 23;
 
 // Insert comments to explain what each console log below will log to the console
+// will log string //
 console.log(typeof four);
+// will log boolean //
 console.log(typeof five);
+// will log number //
 console.log(typeof six);
