@@ -17,12 +17,9 @@ console.log(personName);
 console.log(pets);
 console.log(funFact);
 
-// Combining variable values with a message, creating logs for messages //
-console.log("My name is ");
-
 //Logs for all variables //
 console.log("My name is " + personName);
-console.log("I have " + pets + "pets");
-console.log("Fun fact:" + funFact);
+console.log("I have " + pets + " pets");
+console.log("Fun fact: " + funFact);
 
 
