@@ -12,10 +12,10 @@ var funFact = "My two dogs and I live and travel in a van.";
 // pets =
 // funFact =
 
-//Access values stored in variable through the console log //
-console.log(personName);
-console.log(pets);
-console.log(funFact);
+// //Access values stored in variable through the console log //
+// console.log(personName);
+// console.log(pets);
+// console.log(funFact);
 
 //Logs for all variables //
 console.log("My name is " + personName);
