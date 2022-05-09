@@ -3,14 +3,14 @@
 //personName variable//
 var personName = "Erin";
 // # of pets variable //
-var pets = "2"
+var pets = 2;
 // funFact variable //
 var funFact = "My two dogs and I live and travel in a van.";
 
-// // re-assigning variables //
-// personName =
-// pets =
-// funFact =
+// re-assigning variables //
+personName = "Steve";
+pets = 3;
+funFact = "Steve likes to scuba dive with his scuba cats."
 
 // //Access values stored in variable through the console log //
 // console.log(personName);
