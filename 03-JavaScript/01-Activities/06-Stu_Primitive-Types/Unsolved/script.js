@@ -20,7 +20,7 @@ console.log(typeof two);
 console.log(typeof three); 
 // will log number //
 console.log(typeof four); 
-// will log boolean //
+// will log string //
 console.log(typeof five);
 // will log undefined //
 console.log(typeof six);
