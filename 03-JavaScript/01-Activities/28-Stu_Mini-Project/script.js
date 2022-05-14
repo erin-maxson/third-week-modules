@@ -1,34 +1,29 @@
-var gameOptions = ["R", "P", "S"]
+/* 
+
+Rules of the Game:
+P beats R
+R beats S
+S beats P 
+
+Step 1: You need a way to prompt user for their choice
+Step 2: Get computer's choice
+Step 3: Return outcome of game (wins, losses, ties)
+Step 3a: 
+If user picks R and computer picks S, user wins
+If user picks P and computer picks R, user wins
+If user picks S and computer picks P, user wins
+If user picks matches the same pick as the computer, it's a tie
+
+If user picks S and computer picks R, computer wins
+If user picks R and computer picks P, computer wins
+If user picks P and computer picks S, computer wins
+
+Step 4: Ask if they want to play again
+
+*/
+
+// Global Variables
 var wins = 0;
-var losses = 0;
+var losses = 0
 var ties = 0;
 
-var playGame = function() {
-    var userChoice = window.alert("Welcome to the Rock, Paper, Scissors Arena. To play this game, enter R for Rock, P for Paper, or S for scissors. Would you like to play a game?");
-        return;
-    }
-
-userChoice = userChoice.toUpperCase();
-
-// var index - Math.floor(Math.random() ^ gameOptions.length)
-// var computerChoice = options [index];
-
-// //Give instructions to user on how to play the game w/ confirmation
-// prompt("Welcome to the Rock, Paper, Scissors Arena. To play this game, enter R for Rock, P for Paper, or S for scissors.");
-// //Get input from user if they'd like to play the game
-// prompt("Would you like to play a game of Rock, Paper, Scissors?");
-// //Return the option to input their options: R, P, S
-// var userChoice = window.prompt("Enter R, P, or S.")
-// //Get input from user
-
-
-//Run random/automated game of R, P, S
-
-
-//Generate response
-
-
-//Show the game score -- computer vs user
-
-//Ask to play again
-prompt("Would you like to play again?")
