@@ -26,4 +26,41 @@ Step 4: Ask if they want to play again
 var wins = 0;
 var losses = 0
 var ties = 0;
+var computerChoices = ["R", "P", "S"];
 
+function startGame() {
+    var userPick = prompt("Enter R, P, or S to start the game.")
+    console.log("This is the user's choice.")
+
+    var index = Math.floor(Math.random() * computerChoices.length);
+    var computerPick = computerChoices[index]
+
+    //ties
+    if(userPick === computerPick) {
+        ties=ties+1
+    }
+
+    //wins
+    else if (userPick === "R" && computerPick == "S" || 
+    userPick === "P" && computerPick == "R" ||
+    userPick === "S" && computerPick == "P") {
+        wins=wins+1
+    }
+
+    //losses
+    else {
+        losses=losses+1
+    }
+
+    alert("Wins: " + wins + "\n" + "Losses:" + losses + "\n" + "Ties: " + ties)
+
+    var playAgain = confirm("Do you want to play again?")
+
+    if(playAgain===true) {
+        startGame()
+    }
+
+
+}
+
+startGame()
